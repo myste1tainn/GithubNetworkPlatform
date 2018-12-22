@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GithubNetworkPlatform_Example' do
+  pod 'GithubNetworkPlatform', :path => '../'
+
+  target 'GithubNetworkPlatform_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
